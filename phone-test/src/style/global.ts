@@ -2,7 +2,7 @@ import { createGlobalStyle } from '@xstyled/styled-components';
 
 export const GlobalAppStyle = createGlobalStyle`
   html, body {
-    overflow: hidden;
+    overflow: hidden auto;
     width: 100%;
     height: 100%;
   }
@@ -20,6 +20,6 @@ export const GlobalAppStyle = createGlobalStyle`
   }
 
   ::-webkit-scrollbar {
-    display: none;
+    display: legacy;
   }
 `;
